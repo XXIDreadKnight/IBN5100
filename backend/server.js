@@ -3,7 +3,7 @@ const cors = require('cors'); // To allow requests from your frontend
 const app = express();
 
 // Render typically sets the PORT environment variable. For local dev, use 3001.
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors()); // Enable CORS for all origins (for simplicity in this assignment)
